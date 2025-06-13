@@ -6,7 +6,7 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
-// Scroll-based nav link highlight
+
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".nav-links a");
 
@@ -23,7 +23,7 @@ window.onscroll = () => {
     }
   });
 
-  // Show/hide scroll-to-top
+
   const scrollBtn = document.getElementById("scroll-top");
   scrollBtn.style.display = scrollPos > 400 ? "block" : "none";
 };
@@ -75,12 +75,12 @@ function eraseRole() {
 }
  function validateForm() {
     alert("Message sent successfully!");
-    return false; // prevent actual submission
+    return false; 
   }
 
 
 
 typeRole();
 
-// Set year in footer
+
 document.getElementById("year").textContent = new Date().getFullYear();
